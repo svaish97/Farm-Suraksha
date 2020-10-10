@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context=".MainActivity"
+                tools:showIn="@layout/activity_main"
+>
+    <TextView
+
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:id="@+id/tvLanguageMessage"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"
+            android:text="@string/language_change_message"
+            android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+    <ImageButton
+            android:id="@+id/btnSetting"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/btnlan"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+    <TextView android:layout_width="match_parent"
+              android:text="@string/scan_qr_code_barcode"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:layout_marginTop="30dp"
+              android:padding="10dp"
+              android:textColor="@android:color/black"
+              android:textSize="22sp"
+              android:layout_height="wrap_content"/>
+    <ImageButton
+            android:id="@+id/buttonScan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/scan_icon"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"/>
+
+
+</FrameLayout>

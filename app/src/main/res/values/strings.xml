@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FARM सुरक्षा</string>
+    <string name="app_name_">FARM सुरक्षा</string>
+    <string name="welcome">Welcome</string>
+    <string name="your_farm_is_secured">Solutions that you deserve</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="skip">Skip</string>
+    <string name="scan_code">Scan Code</string>
+    <string name="emptyEmail">Email Field Is Empty</string>
+    <string name="emptyPassword">Password Field Is Empty</string>
+    <string name="scan">Start</string>
+    <string name="message">Focus Camera On QR Code</string>
+    <string name="scan_qr_code_barcode">Tap To Scan QR Code</string>
+    <string name="user_id">User</string>
+    <string name="authIncorrect">Invalid Credentials</string>
+    <string name="scan_successful">Scan Successful</string>
+    <string name="chain_title">Product Chain</string>
+    <string name="alertTitle">Transaction Details</string>
+    <string name="language_message">Changing Language Setting</string>
+    <string name="language_change_message">Click On Globe To Change the Current Language</string>
+    <string name="you">You</string>
+    <string name="setting_up_message">Setting Up the Product Chain</string>
+</resources>
